@@ -1,0 +1,10 @@
+.buttons-page-wrapper {
+  display: flex;
+  align-items: center;
+  /* overflow: auto; */
+  direction: ltr;
+}
+
+.buttons-page-size-item {
+  margin: 4px;
+}
