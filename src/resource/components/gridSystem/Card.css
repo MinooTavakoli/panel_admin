@@ -34,12 +34,12 @@
   margin-top: 8px;
 }
 .card-title {
-  padding: 16px 32px;
+  padding: 16px 24px;
   background-color: transparent;
   border-radius: 8px 8px 0 0;
-  font-size: 13px;
+  font-size: 15px;
   color: #a5acc6;
-  font-weight: 700;
+  font-weight: 600;
 }
 .card-footer {
   padding: 16px 16px;
