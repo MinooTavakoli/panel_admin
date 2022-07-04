@@ -1,0 +1,64 @@
+.pop-over-component {
+  min-width: 160px;
+  position: absolute;
+  border-radius: 2px;
+  background-color: #fff;
+  box-shadow: 0px 2px 20px rgba(180, 188, 188, 0.2);
+  display: flex;
+  flex-direction: column;
+  min-height: 100px;
+  overflow: hidden;
+  padding: 16px 0;
+}
+.pop-over-data {
+  position: relative;
+}
+
+.pop-over-title {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #9a9a9a;
+}
+
+.pop-over-content-wrapper {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.pop-over-content {
+  width: 224px;
+}
+
+.pop-over-footer {
+  padding: 4px;
+  font-size: 13px;
+  color: #a5acc6;
+}
+
+.data-title {
+  width: 100%;
+}
+
+.data-title-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 10px 0;
+  margin: 0 24px;
+  color: #9a9a9a;
+  font-size: 14px;
+  direction: ltr;
+  cursor: pointer;
+}
+
+.pop-over-show-shadow-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+}
