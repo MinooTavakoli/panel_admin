@@ -1,0 +1,14 @@
+.side-layout {
+  display: flex;
+  background-color: #f5f6fa;
+  /* height: calc(100vh - 159px); */
+}
+
+.sidebar-complete-hidden {
+}
+
+@media only screen and (max-width: 1241px) {
+  .sidebar-complete-hidden {
+    display: none;
+  }
+}
