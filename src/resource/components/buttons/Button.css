@@ -1,26 +1,108 @@
 .btn {
   padding: 0 12px;
+  box-shadow: none;
+  color: #fff;
+  outline: none;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.15s ease;
 }
 
 .btn-primary {
   background: #e14eca;
   background-image: linear-gradient(to bottom left, #e14eca, #ba54f5, #e14eca);
-  /* background-size: 210% 210%; */
-  /* background-position: 100% 0; */
+  border: 1px solid #e14eca;
+  background-size: 210% 210%;
+  background-position: 100% 0;
   background-color: #e14eca;
-  transition: all 0.15s ease;
-  box-shadow: none;
-  color: #fff;
-  outline: none;
-  border: 1px solid #ba54f5;
-  cursor: pointer;
 }
 
-.btn-primary:hover {
-  /* background: var(--color11); */
+.btn-outline-primary {
+  background-color: #fff;
+  border: 1px solid #e14eca;
+  color: #e14eca;
 }
 
-.btn-primary:disabled {
+.btn-default {
+  background: #344675;
+  background-image: linear-gradient(to bottom left, #344675, #263148, #344675);
+  border: 1px solid #344675;
+  background-size: 210% 210%;
+  background-position: 100% 0;
+  background-color: #344675;
+}
+
+.btn-outline-default {
+  background-color: #fff;
+  border: 1px solid #344675;
+  color: #344675;
+}
+
+.btn-info {
+  background: #1d8cf8;
+  background-image: linear-gradient(to bottom left, #1d8cf8, #3358f4, #1d8cf8);
+  border: 1px solid #1d8cf8;
+  background-size: 210% 210%;
+  background-position: 100% 0;
+  background-color: #1d8cf8;
+}
+
+.btn-outline-info {
+  background-color: #fff;
+  border: 1px solid #1d8cf8;
+  color: #1d8cf8;
+}
+
+.btn-success {
+  background: #00f2c3;
+  background-image: linear-gradient(to bottom left, #00f2c3, #0098f0, #00f2c3);
+  border: 1px solid #00f2c3;
+  background-size: 210% 210%;
+  background-position: 100% 0;
+  background-color: #00f2c3;
+}
+
+.btn-outline-success {
+  background-color: #fff;
+  border: 1px solid #00f2c3;
+  color: #00f2c3;
+}
+
+.btn-warning {
+  background: #ff8d72;
+  background-image: linear-gradient(to bottom left, #ff8d72, #ff6491, #ff8d72);
+  border: 1px solid #ff8d72;
+  background-size: 210% 210%;
+  background-position: 100% 0;
+  background-color: #ff8d72;
+}
+
+.btn-outline-warning {
+  background-color: #fff;
+  border: 1px solid #ff8d72;
+  color: #ff8d72;
+}
+
+.btn-danger {
+  background: #fd5d93;
+  background-image: linear-gradient(to bottom left, #fd5d93, #ec250d, #fd5d93);
+  border: 1px solid #fd5d93;
+  background-size: 210% 210%;
+  background-position: 100% 0;
+  background-color: #fd5d93;
+}
+
+.btn-outline-danger {
+  background-color: #fff;
+  border: 1px solid #fd5d93;
+  color: #fd5d93;
+}
+
+.btn:hover {
+  box-shadow: 0 4px 6px rgb(50 50 93 / 11%), 0 1px 3px rgb(0 0 0 / 8%);
+}
+
+.btn:disabled {
   background: #e2e2e2;
   color: #fafafa;
   cursor: not-allowed;
@@ -28,37 +110,37 @@
 }
 
 .btn-xs-size {
-  min-width: 88px;
+  min-width: 80px;
   height: 28px;
-  font-size: 10px;
+  font-size: 13px;
   border-radius: 6px;
 }
 
 .btn-sm-size {
-  min-width: 108px;
-  height: 38px;
-  font-size: 12px;
+  min-width: 128px;
+  height: 42px;
+  font-size: 14px;
   border-radius: 7px;
 }
 
 .btn-md-size {
-  min-width: 128px;
+  min-width: 144px;
   height: 48px;
-  font-size: 14px;
+  font-size: 17px;
   border-radius: 8px;
 }
 
 .btn-lg-size {
-  min-width: 148px;
+  min-width: 168px;
   height: 58px;
-  font-size: 16px;
+  font-size: 19px;
   border-radius: 9px;
 }
 
 .btn-xl-size {
-  min-width: 168px;
+  min-width: 188px;
   height: 68px;
-  font-size: 18px;
+  font-size: 21px;
   border-radius: 10px;
 }
 
@@ -67,6 +149,21 @@
   height: 48px;
   font-size: 16px;
   border-radius: 9px;
+}
+
+.btn-none-size {
+  width: 100%;
+  height: 100%;
+}
+
+.btn-rounded-styles {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.btn-littleRound-styles {
+  border-radius: 40px;
 }
 
 .btn-cancel {
@@ -86,4 +183,26 @@
   border: 1px solid var(--themDisableBgColor);
   color: var(--themIconDisableTextColor);
   cursor: not-allowed;
+}
+
+.button-icon-wrapper {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.button-icon-item-wrapper {
+  position: absolute;
+  left: 2px;
+}
+
+.button-icon-item {
+  width: 17px;
+}
+
+.button-icon-center-item-wrapper {
+}
+
+.button-icon-center-item {
+  width: 20px;
 }
