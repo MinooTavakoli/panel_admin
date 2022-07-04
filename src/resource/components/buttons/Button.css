@@ -1,0 +1,89 @@
+.btn {
+  padding: 0 12px;
+}
+
+.btn-primary {
+  background: #e14eca;
+  background-image: linear-gradient(to bottom left, #e14eca, #ba54f5, #e14eca);
+  /* background-size: 210% 210%; */
+  /* background-position: 100% 0; */
+  background-color: #e14eca;
+  transition: all 0.15s ease;
+  box-shadow: none;
+  color: #fff;
+  outline: none;
+  border: 1px solid #ba54f5;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  /* background: var(--color11); */
+}
+
+.btn-primary:disabled {
+  background: #e2e2e2;
+  color: #fafafa;
+  cursor: not-allowed;
+  border: 1px solid #e5e5e5;
+}
+
+.btn-xs-size {
+  min-width: 88px;
+  height: 28px;
+  font-size: 10px;
+  border-radius: 6px;
+}
+
+.btn-sm-size {
+  min-width: 108px;
+  height: 38px;
+  font-size: 12px;
+  border-radius: 7px;
+}
+
+.btn-md-size {
+  min-width: 128px;
+  height: 48px;
+  font-size: 14px;
+  border-radius: 8px;
+}
+
+.btn-lg-size {
+  min-width: 148px;
+  height: 58px;
+  font-size: 16px;
+  border-radius: 9px;
+}
+
+.btn-xl-size {
+  min-width: 168px;
+  height: 68px;
+  font-size: 18px;
+  border-radius: 10px;
+}
+
+.btn-full-size {
+  width: 100%;
+  height: 48px;
+  font-size: 16px;
+  border-radius: 9px;
+}
+
+.btn-cancel {
+  border: 1px solid var(--themBtnBgPrimary);
+  background: #ffffff;
+  color: var(--themBtnBgPrimary);
+  cursor: pointer;
+}
+
+.btn-cancel:hover {
+  border: 1px solid var(--color11);
+  color: var(--color11);
+  background-color: #ffffff;
+}
+
+.btn-cancel:disabled {
+  border: 1px solid var(--themDisableBgColor);
+  color: var(--themIconDisableTextColor);
+  cursor: not-allowed;
+}
