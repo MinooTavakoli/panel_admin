@@ -6,7 +6,7 @@ import {
 } from "react-router-dom";
 import Calendar from '../calendar/Calendar';
 import Charts from '../charts/Charts';
-import Button from '../components/buttons/Button';
+import Buttons from '../pages/buttons/Buttons';
 import GridSystem from '../components/gridSystem/GridSystem';
 import Icons from '../components/icons/Icons';
 import Notifications from '../components/notifications/Notifications';
@@ -45,7 +45,7 @@ function Routers() {
                 <Route path="/register" element={<Register />} />
                 <Route path="/lock-screen" element={<LockScreen />} />
                 <Route path="/user-profile" element={<UserProfile />} />
-                <Route path="/buttons" element={<Button />} />
+                <Route path="/buttons" element={<Buttons />} />
                 <Route path="/grid-system" element={<GridSystem />} />
                 <Route path="/panels" element={<Panels />} />
                 <Route path="/sweet-alert" element={<SweetAlert />} />
