@@ -4,13 +4,19 @@ import Button from '../../components/buttons/Button';
 import Card from '../../components/gridSystem/Card';
 import Col from '../../components/gridSystem/Col';
 import Row from '../../components/gridSystem/Row';
-import arrowLeft from '../../../assets/icons/arrow-left.png'
-import arrowRight from '../../../assets/icons/arrow-right.png'
-import infoIcon from '../../../assets/icons/info.png'
-import successIcon from '../../../assets/icons/success.png'
-import warningIcon from '../../../assets/icons/warning.png'
-import dangerIcon from '../../../assets/icons/danger.png'
-import likeIcon from '../../../assets/icons/like.png'
+import arrowLeft from '../../../assets/icons/arrow-left.png';
+import arrowRight from '../../../assets/icons/arrow-right.png';
+import infoIcon from '../../../assets/icons/info.png';
+import successIcon from '../../../assets/icons/success.png';
+import warningIcon from '../../../assets/icons/warning.png';
+import dangerIcon from '../../../assets/icons/danger.png';
+import likeIcon from '../../../assets/icons/like.png';
+import twitterIcon from '../../../assets/icons/twitter.png';
+import facebookIcon from '../../../assets/icons/facebook.png';
+import googleplusIcon from '../../../assets/icons/googleplus.png';
+import linkedinIcon from '../../../assets/icons/linkedin.png';
+import pinterestIcon from '../../../assets/icons/pinterest.png';
+import youtubeIcon from '../../../assets/icons/youtube.png';
 import './Buttons.css'
 
 function Buttons() {
@@ -187,6 +193,59 @@ function Buttons() {
                         <br />
                     </Card>
                 </Col>
+
+                <Col md="12">
+                    <Card title="Social buttons" dir="ltr">
+                        <div className="buttons-social-page-wrapper">
+                            <Button
+                                type="twitter"
+                                size="sm-244"
+                                label="Connect with Twitter "
+                                className="buttons-page-size-item"
+                                iconLeft={twitterIcon}
+                            />
+                            <Button
+                                type="facebook"
+                                size="sm-176"
+                                label="Share · 2.2k"
+                                className="buttons-page-size-item"
+                                iconLeft={facebookIcon}
+                            />
+                            <Button
+                                type="google"
+                                size="sm-227"
+                                label="Share on Google+"
+                                className="buttons-page-size-item"
+                                iconLeft={googleplusIcon}
+                            />
+                            <Button
+                                type="linkedin"
+                                size="sm-244"
+                                label="Connect with Linkedin"
+                                className="buttons-page-size-item"
+                                iconLeft={linkedinIcon}
+                            />
+                            <Button
+                                type="pinterest"
+                                size="sm-168"
+                                label="Pint it · 212"
+                                className="buttons-page-size-item"
+                                iconLeft={pinterestIcon}
+                            />
+                            <Button
+                                type="youtube"
+                                size="sm-218"
+                                label="View on Youtube"
+                                className="buttons-page-size-item"
+                                iconLeft={youtubeIcon}
+                            />
+
+                        </div>
+                        <br />
+                    </Card>
+                </Col>
+
+                <Col md="12"></Col>
 
             </Row>
         </Layout>

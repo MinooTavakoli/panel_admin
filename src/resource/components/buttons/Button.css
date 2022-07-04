@@ -114,6 +114,7 @@
   height: 28px;
   font-size: 13px;
   border-radius: 6px;
+  overflow: hidden;
 }
 
 .btn-sm-size {
@@ -121,6 +122,7 @@
   height: 42px;
   font-size: 14px;
   border-radius: 7px;
+  overflow: hidden;
 }
 
 .btn-md-size {
@@ -128,6 +130,7 @@
   height: 48px;
   font-size: 17px;
   border-radius: 8px;
+  overflow: hidden;
 }
 
 .btn-lg-size {
@@ -135,6 +138,7 @@
   height: 58px;
   font-size: 19px;
   border-radius: 9px;
+  overflow: hidden;
 }
 
 .btn-xl-size {
@@ -142,6 +146,7 @@
   height: 68px;
   font-size: 21px;
   border-radius: 10px;
+  overflow: hidden;
 }
 
 .btn-full-size {
@@ -149,6 +154,7 @@
   height: 48px;
   font-size: 16px;
   border-radius: 9px;
+  overflow: hidden;
 }
 
 .btn-none-size {
@@ -205,4 +211,97 @@
 
 .button-icon-center-item {
   width: 20px;
+}
+
+.btn-twitter {
+  background: #55acee;
+  background-image: linear-gradient(to bottom left, #55acee, #147bc9, #55acee);
+  background-size: 210% 210%;
+  background-position: 100% 0;
+  border: 1px solid #55acee;
+}
+
+.btn-facebook {
+  background: #3b5998;
+  background-image: linear-gradient(to bottom left, #3b5998, #1e2e4f, #3b5998);
+  color: #fff;
+  background-size: 210% 210%;
+  background-position: 100% 0;
+  border: 1px solid #3b5998;
+}
+
+.btn-google {
+  background: #dd4b39;
+  background-image: linear-gradient(to bottom left, #dd4b39, #96271a, #dd4b39);
+  color: #fff;
+  background-size: 210% 210%;
+  background-position: 100% 0;
+  border: 1px solid #dd4b39;
+}
+
+.btn-linkedin {
+  background: #0077b5;
+  background-image: linear-gradient(to bottom left, #0077b5, #00344f, #0077b5);
+  color: #fff;
+  background-size: 210% 210%;
+  background-position: 100% 0;
+  border: 1px solid #0077b5;
+}
+
+.btn-pinterest {
+  background: #cc2127;
+  background-image: linear-gradient(to bottom left, #cc2127, #741316, #cc2127);
+  color: #fff;
+  background-size: 210% 210%;
+  background-position: 100% 0;
+  border: 1px solid #cc2127;
+}
+
+.btn-youtube {
+  background: #e52d27;
+  background-image: linear-gradient(to bottom left, #e52d27, #941612, #e52d27);
+  color: #fff;
+  background-size: 210% 210%;
+  background-position: 100% 0;
+  border: 1px solid #e52d27;
+}
+
+.btn-sm-244-size {
+  min-width: 244px;
+  height: 40px;
+  font-size: 14px;
+  border-radius: 7px;
+  overflow: hidden;
+}
+
+.btn-sm-176-size {
+  min-width: 176px;
+  height: 40px;
+  font-size: 14px;
+  border-radius: 7px;
+  overflow: hidden;
+}
+
+.btn-sm-227-size {
+  min-width: 227px;
+  height: 40px;
+  font-size: 14px;
+  border-radius: 7px;
+  overflow: hidden;
+}
+
+.btn-sm-168-size {
+  min-width: 168px;
+  height: 40px;
+  font-size: 14px;
+  border-radius: 7px;
+  overflow: hidden;
+}
+
+.btn-sm-218-size {
+  min-width: 218px;
+  height: 40px;
+  font-size: 14px;
+  border-radius: 7px;
+  overflow: hidden;
 }
