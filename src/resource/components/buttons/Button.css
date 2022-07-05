@@ -266,6 +266,51 @@
   border: 1px solid #e52d27;
 }
 
+.btn-tumblr {
+  background: #35465c;
+  background-image: linear-gradient(to bottom left, #35465c, #10151b, #35465c);
+  color: #fff;
+  background-size: 210% 210%;
+  background-position: 100% 0;
+  border: 1px solid #35465c;
+}
+
+.btn-github {
+  background: #333;
+  background-image: linear-gradient(to bottom left, #333, #000, #333);
+  color: #fff;
+  background-size: 210% 210%;
+  background-position: 100% 0;
+  border: 1px solid #333;
+}
+
+.btn-behance {
+  background: #1769ff;
+  background-image: linear-gradient(to bottom left, #1769ff, #003eb0, #1769ff);
+  color: #fff;
+  background-size: 210% 210%;
+  background-position: 100% 0;
+  border: 1px solid #1769ff;
+}
+
+.btn-dribble {
+  background: #ea4c89;
+  background-image: linear-gradient(to bottom left, #ea4c89, #ba1655, #ea4c89);
+  color: #fff;
+  background-size: 210% 210%;
+  background-position: 100% 0;
+  border: 1px solid #ea4c89;
+}
+
+.btn-reddit {
+  background: #ff4500;
+  background-image: linear-gradient(to bottom left, #ff4500, #992900, #ff4500);
+  color: #fff;
+  background-size: 210% 210%;
+  background-position: 100% 0;
+  border: 1px solid #ff4500;
+}
+
 .btn-sm-244-size {
   min-width: 244px;
   height: 40px;
@@ -300,6 +345,22 @@
 
 .btn-sm-218-size {
   min-width: 218px;
+  height: 40px;
+  font-size: 14px;
+  border-radius: 7px;
+  overflow: hidden;
+}
+
+.btn-sm-144-size {
+  min-width: 144px;
+  height: 40px;
+  font-size: 14px;
+  border-radius: 7px;
+  overflow: hidden;
+}
+
+.btn-sm-160-size {
+  min-width: 144px;
   height: 40px;
   font-size: 14px;
   border-radius: 7px;
