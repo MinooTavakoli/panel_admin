@@ -17,6 +17,11 @@ import googleplusIcon from '../../../assets/icons/googleplus.png';
 import linkedinIcon from '../../../assets/icons/linkedin.png';
 import pinterestIcon from '../../../assets/icons/pinterest.png';
 import youtubeIcon from '../../../assets/icons/youtube.png';
+import tumblrIcon from '../../../assets/icons/tumblr.png';
+import githubIcon from '../../../assets/icons/github.png';
+import followIcon from '../../../assets/icons/follow.png';
+import dribbleIcon from '../../../assets/icons/dribble.png';
+import redditIcon from '../../../assets/icons/reddit.png';
 import './Buttons.css'
 
 function Buttons() {
@@ -197,6 +202,7 @@ function Buttons() {
                 <Col md="12">
                     <Card title="Social buttons" dir="ltr">
                         <div className="buttons-social-page-wrapper">
+                            <div className="buttons-social-page-title">Default</div>
                             <Button
                                 type="twitter"
                                 size="sm-244"
@@ -239,7 +245,41 @@ function Buttons() {
                                 className="buttons-page-size-item"
                                 iconLeft={youtubeIcon}
                             />
-
+                            <Button
+                                type="tumblr"
+                                size="sm-144"
+                                label="Repost"
+                                className="buttons-page-size-item"
+                                iconLeft={tumblrIcon}
+                            />
+                            <Button
+                                type="github"
+                                size="sm-244"
+                                label="Connect with Github"
+                                className="buttons-page-size-item"
+                                iconLeft={githubIcon}
+                            />
+                            <Button
+                                type="behance"
+                                size="sm-160"
+                                label="Follow us"
+                                className="buttons-page-size-item"
+                                iconLeft={followIcon}
+                            />
+                            <Button
+                                type="dribble"
+                                size="sm-227"
+                                label="Find us on Dribble"
+                                className="buttons-page-size-item"
+                                iconLeft={dribbleIcon}
+                            />
+                            <Button
+                                type="reddit"
+                                size="sm-176"
+                                label="Repost · 232"
+                                className="buttons-page-size-item"
+                                iconLeft={redditIcon}
+                            />
                         </div>
                         <br />
                     </Card>
